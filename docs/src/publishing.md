@@ -131,7 +131,7 @@ valist publish
 
 ### Github Action
 
-The valist official Valist github-action can be found at [valist-github-action](https://github.com/valist-io/valist-github-action).
+The official Valist github-action can be found at [valist-github-action](https://github.com/valist-io/valist-github-action).
 
 To use the github action start by creating an `example.yml` in `.github/workflows`. The minimal config for using the Github action in your workflow is:
 
@@ -163,7 +163,7 @@ artifacts:
   windows/amd64: dist/windows64
 ```
 
-Now naviagate to [https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) and set the `VALIST_SIGNER` secret for your reposiotry with your as your chosen private key.
+Now naviagate to [https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) and set the `VALIST_SIGNER` secret for your reposiotry as your chosen private key.
 
 Running the following commands in your project will commit and push triggering a new publish:
 
@@ -173,4 +173,4 @@ git commit -m "Release 0.0.1"
 git push 
 ```
 
-The Valist CLI inside the Github Action will publish the artifacts to the corresponding name, and tag.
+The Valist CLI inside the Github Action will publish the artifacts to the corresponding `name`, and `tag`.
