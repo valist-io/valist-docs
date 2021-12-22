@@ -126,3 +126,49 @@ To publish a new release, update the `tag` in your `valist.yml`, and run the fol
 ```bash
 valist publish
 ```
+
+## CI/CD Platforms
+
+### Github Action
+
+The valist official Valist github-action can be found at [valist-github-action](https://github.com/valist-io/valist-github-action).
+
+To use the github action start by creating an `example.yml` in `.github/workflows`. The minimal config for using the Github action in your workflow is:
+
+```
+name: Valist publish
+on:
+  push:
+    branches: ['main'] # Event triggers on pushes to main
+
+jobs:
+  Valist: # Define deploy job
+    runs-on: ubuntu-latest # OS used for virtual machine
+
+    steps:
+      - uses: actions/checkout@v2 # Make source code of repo available
+      
+      - name: Valist publish
+        uses: valist-io/valist-github-action@main # Execute valist build & publish
+```
+
+Next, create a `valist.yml` for your project.
+
+```
+name: acme-co/github-action
+tag: 0.0.1
+artifacts:
+  linux/amd64: dist/linux64
+  darwin/amd64: dist/darwin64
+  windows/amd64: dist/windows64
+```
+
+Now naviagate to [https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) and set the `VALIST_SIGNER` secret for your reposiotry with your as your chosen private key.
+
+Running the following commands in your project will commit and push triggering a new publish:
+
+  git add src/main.go valist.yml .github/workflows/example.yml
+  git commit -m "Release 0.0.1"
+  git push 
+
+The Valist CLI inside the Github Action will publish the artifacts to the corresponding name, and tag.
