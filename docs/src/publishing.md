@@ -167,8 +167,10 @@ Now naviagate to [https://docs.github.com/en/actions/security-guides/encrypted-s
 
 Running the following commands in your project will commit and push triggering a new publish:
 
-  git add src/main.go valist.yml .github/workflows/example.yml
+```bash
+  git add valist.yml .github/workflows/example.yml
   git commit -m "Release 0.0.1"
   git push 
+```
 
 The Valist CLI inside the Github Action will publish the artifacts to the corresponding name, and tag.
