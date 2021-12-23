@@ -150,6 +150,8 @@ jobs:
       
       - name: Valist publish
         uses: valist-io/valist-github-action@main # Execute valist build & publish
+        env:
+          VALIST_SIGNER: ${{ secrets.VALIST_SIGNER }}
 ```
 
 Next, create a `valist.yml` for your project.
