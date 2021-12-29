@@ -24,6 +24,8 @@ nav:
     - publishing.md
     - installing.md
     - security.md
+    - 'JS-SDK Docs': '/sdk/classes/index.export_.html'
+    - 'Go-SDK Docs': 'https://pkg.go.dev/github.com/valist-io/valist'
     
 markdown_extensions:
   - attr_list
