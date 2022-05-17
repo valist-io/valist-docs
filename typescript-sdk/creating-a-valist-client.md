@@ -59,6 +59,8 @@ export interface Options {
 
 ### Example Usage&#x20;
 
+To create a Valist client, you need a Wallet and an RPC provider:
+
 ```javascript
 // Example
 import { ethers } from 'ethers';
@@ -81,4 +83,35 @@ async function run(): Promise<void> {
 	}
 }
 
+```
+
+To create a read-only client, you can use the `createReadOnly` function:
+
+```javascript
+// Example
+const ethers = require('ethers');
+const createReadOnly = require('@valist/sdk').createReadOnly;
+const Web3HttpProvider = require('web3-providers-http'); 
+
+async function main() {
+	try {
+            const web3 = new Web3HttpProvider("https://rpc.valist.io/polygon");
+            const provider = new ethers.providers.Web3Provider(web3);
+            const valist = createReadOnly(provider, { metaTx: true });
+                
+            const accountID = valist.generateID(137, 'acme-co');
+            const projectID = valist.generateID(accountID, 'go-binary')
+            const releaseID = await valist.getLatestReleaseID(projectID)
+        
+            const projectMeta = await valist.getProjectMeta(projectID);
+            const latestRelease = await valist.getReleaseMeta(releaseID);
+        
+            console.log(projectMeta);
+            console.log(latestRelease);
+	} catch (err) {
+		console.log(err)
+	}
+}
+
+main()
 ```
