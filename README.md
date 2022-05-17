@@ -1,50 +1,29 @@
-![Valist documentation logo](docs/src/img/valist-docs-header.png)
-[![Go Reference](https://pkg.go.dev/badge/github.com/valist-io/valist.svg)](https://pkg.go.dev/github.com/valist-io/valist)
-[![Discord](https://img.shields.io/discord/785535462311591976)](https://discord.com/channels/785535462311591976)
-[![Valist](https://img.shields.io/badge/valist-published-blue)](https://app.valist.io/valist)
+# 🚀 Getting Started
 
-This repository organizes overall documentation across the Valist project.
+## Welcome to Valist
 
-## Building
+Welcome to Web3-native software distribution: the best way for developers and DAOs to securely publish, fetch, auto-update, and fairly monetize software.
 
-To install dependencies and build all documentation (Markdown and TypeDoc), run the following:
+{% embed url="https://www.youtube.com/watch?v=7ak6PQPDBkk" %}
+Our frens at IPFS helped us put together this video that gives a high level overview of the mission of Valist
+{% endembed %}
 
-```bash
-make
-```
+## Join our community!
 
-To build the hand-written Markdown (must run `make install-md` once prior):
+We're a community passionate about open source, web3, information security, cryptography, and all kinds of other topics! Come hang out with us in our Discord server!
 
-```bash
-make md-docs
-```
+{% embed url="https://valist.io/discord" %}
 
-To hot-reload the markdown docs:
+## Want to jump right in?
 
-```bash
-make dev
-```
+Ready to setup your account? Click the page below 👇
 
-To build the SDK (TypeDoc) docs (must run `make install-js` once prior):
+{% content-ref url="web/publishing-releases/creating-an-account.md" %}
+[creating-an-account.md](web/publishing-releases/creating-an-account.md)
+{% endcontent-ref %}
 
-```bash
-make js-docs
-```
+{% embed url="https://www.loom.com/share/f054e6cbbfee45cf94c0ab7f945d5643" %}
 
-## Contributing
+## Curious about Web3-native software distribution?
 
-We welcome pull requests and would love to support our early contributors with some awesome perks!
-
-Found a bug or have an idea for a feature? [Create an issue](https://github.com/valist-io/valist-docs/issues/new).
-
-## Maintainers
-
-[@awantoch](https://github.com/awantoch)
-
-[@jiyuu-jin](https://github.com/jiyuu-jin)
-
-[@nasdf](https://github.com/nasdf)
-
-## License
-
-Valist is licensed under the [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/).
+Let's dive deep into what that means and how it benefits the web3 ecosystem 👇
