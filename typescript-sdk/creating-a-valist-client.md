@@ -97,7 +97,7 @@ async function main() {
 	try {
             const web3 = new Web3HttpProvider("https://rpc.valist.io/polygon");
             const provider = new ethers.providers.Web3Provider(web3);
-            const valist = createReadOnly(provider, { metaTx: true });
+            const valist = createReadOnly(provider, { metaTx: false });
                 
             const accountID = valist.generateID(137, 'acme-co');
             const projectID = valist.generateID(accountID, 'go-binary')
