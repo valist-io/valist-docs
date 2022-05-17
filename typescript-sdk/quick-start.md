@@ -41,3 +41,37 @@ If there are other functions with the same name (i.e., IPFS client library), you
 import { create as createValist } from "@valist/valist-sdk"
 ```
 
+Below is an example of creating a Valist Client and fetching some Project and Release metadata:
+
+```javascript
+// Example
+const ethers = require('ethers');
+const create = require('@valist/sdk').create;
+const Web3HttpProvider = require('web3-providers-http'); 
+
+async function main() {
+	try {
+            const web3 = new Web3HttpProvider("https://rpc.valist.io/polygon");
+            
+            const privateKey = ethers.Wallet.createRandom();
+            const wallet = new ethers.Wallet(privateKey);
+            
+            const provider = new ethers.providers.Web3Provider(web3);
+            const valist = await create(provider, { wallet, metaTx: true });
+            
+            const accountID = valist.generateID(137, 'acme-co');
+            const projectID = valist.generateID(accountID, 'go-binary')
+            const releaseID = await valist.getLatestReleaseID(projectID)
+        
+            const projectMeta = await valist.getProjectMeta(projectID);
+            const latestRelease = await valist.getReleaseMeta(releaseID);
+        
+            console.log(projectMeta);
+            console.log(latestRelease);
+	} catch (err) {
+		console.log(err)
+	}
+}
+
+main()
+```

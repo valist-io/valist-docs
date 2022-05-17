@@ -63,26 +63,35 @@ To create a Valist client, you need a Wallet and an RPC provider:
 
 ```javascript
 // Example
-import { ethers } from 'ethers';
-import { create } from '@valist/sdk';
+const ethers = require('ethers');
+const create = require('@valist/sdk').create;
 const Web3HttpProvider = require('web3-providers-http'); 
 
-async function run(): Promise<void> {
+async function main() {
 	try {
-		const rpcURL = "https://polygon-rpc.com"
-		const metaTx = true;
-                const privateKey = ethers.Wallet.createRandom()
-                 
-		const web3 = new Web3HttpProvider(rpcURL);
-		const provider = new ethers.providers.Web3Provider(web3);
-
-		const wallet = new ethers.Wallet(privateKey);
-		const client = await create(provider, { wallet, metaTx });
-	} catch (err: any) {
+            const web3 = new Web3HttpProvider("https://rpc.valist.io/polygon");
+            
+            const privateKey = ethers.Wallet.createRandom();
+            const wallet = new ethers.Wallet(privateKey);
+            
+            const provider = new ethers.providers.Web3Provider(web3);
+            const valist = await create(provider, { wallet, metaTx: true });
+            
+            const accountID = valist.generateID(137, 'acme-co');
+            const projectID = valist.generateID(accountID, 'go-binary')
+            const releaseID = await valist.getLatestReleaseID(projectID)
+        
+            const projectMeta = await valist.getProjectMeta(projectID);
+            const latestRelease = await valist.getReleaseMeta(releaseID);
+        
+            console.log(projectMeta);
+            console.log(latestRelease);
+	} catch (err) {
 		console.log(err)
 	}
 }
 
+main()
 ```
 
 To create a read-only client, you can use the `createReadOnly` function:
