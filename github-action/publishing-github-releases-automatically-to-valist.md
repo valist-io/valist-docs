@@ -23,7 +23,6 @@ jobs:
           fileName: "*"
       - uses: valist-io/valist-github-action@v2.1.0
         with:
-          rpc-url: https://rpc.valist.io/polygon
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: nasdf
           project: ipfs

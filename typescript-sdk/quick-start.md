@@ -78,4 +78,4 @@ main()
 
 Here's a live example:
 
-{% embed url="https://replit.com/@AlecWantoch/valist-sdk#index.js" %}
+{% embed url="https://replit.com/@AlecWantoch/valist-sdk" %}

@@ -33,7 +33,12 @@ First, a developer creates an account and a project on the Valist Registry smart
 Then, when the developer publishes a release -- for example, version `1.0.0` of a CLI application, the following happens:
 
 * Valist pins the file onto IPFS using several pinning providers. This file is also archived onto Filecoin for long-term storage.
-* The CID is then stored in the Valist Registry on Polygon under the `account/project/1.0.0` path.
+* The Valist client creates a JSON file from the release metadata, file CIDs, and other relevant information, and publishes this onto IPFS.
+* This Release CID is then stored in the Valist Registry contract on Polygon under the `account/project/1.0.0` path.
+* When calling the contract, an EIP-712 meta-transaction signature is requested from the user, which is used to relay the transaction with [OpenGSN](https://opengsn.org/).
+  * This enables gasless transactions, removing friction for developers.
+  * The transaction paymaster is powered by Valist.io and the community.
+* The [Subgraph](https://thegraph.com/hosted-service/subgraph/valist-io/valist) indexes the event triggered by the smart contract, enabling advanced data querying from the client in addition to the direct RPC-based requests.
 
 Once the release is published, the Valist SDK, Web Dashboard, and CLI are all able to easily query this path to resolve the release.
 
