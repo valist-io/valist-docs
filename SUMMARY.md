@@ -52,4 +52,4 @@
 
 ## 🔗 Subgraph
 
-* [Subgraph](subgraph/subgraph.md)
+* [Source and Endpoints](subgraph/source-and-endpoints.md)

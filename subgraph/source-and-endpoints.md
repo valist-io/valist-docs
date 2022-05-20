@@ -1,4 +1,4 @@
-# Subgraph
+# Source and Endpoints
 
 The Valist Subgraph indexes multiple Valist contracts and consolidates it into a simple GraphQL interface.
 
