@@ -49,3 +49,7 @@
 ## ⚙ Golang SDK
 
 * [Quick Start](golang-sdk/quick-start.md)
+
+## 🔗 Subgraph
+
+* [Subgraph](subgraph/subgraph.md)
