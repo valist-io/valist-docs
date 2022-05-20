@@ -7,8 +7,8 @@ The Valist CLI allows you to easily publish, download, and install releases from
 The Valist CLI supports all of the core functionality of Valist, including:
 
 * Secure key management with [keytar](https://www.npmjs.com/package/keytar)
-* Publishing releases easily, for example `valist publish acme-co/go-binary/0.0.1 dist/*`
-* Downloading releases easily, for example `valist download acme-co/go-binary`
+* Publishing releases, for example `valist publish acme-co/go-binary/0.0.1 dist/*`
+* Downloading releases, for example `valist download acme-co/go-binary`
 * Gasless meta-transactions powered by [OpenGSN](https://github.com/opengsn/gsn)
 
 ### Installation
