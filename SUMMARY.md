@@ -24,6 +24,10 @@
 * [Publishing GitHub Releases automatically to Valist](github-action/publishing-github-releases-automatically-to-valist.md)
 * [Publishing Source Code Snapshots](github-action/publishing-source-code-snapshots.md)
 
+## 💻 CLI
+
+* [Quick Start](cli/quick-start.md)
+
 ## 🌐 Web
 
 * [Publishing Releases](web/publishing-releases/README.md)
