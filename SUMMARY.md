@@ -15,9 +15,9 @@
 ## 📺 Videos
 
 * [Exploring Valist](videos/exploring-valist/README.md)
-  * [Creating an Account](videos/exploring-valist/creating-an-account.md)
-  * [Creating a Project](videos/exploring-valist/creating-a-project.md)
-  * [Publishing a Release](videos/exploring-valist/publishing-a-release.md)
+  * [Creating an Account](videos/creating-an-account.md)
+  * [Creating a Project](videos/creating-a-project.md)
+  * [Publishing a Release](videos/publishing-a-release.md)
 * [Media & Talks](videos/media-and-talks.md)
 
 ## 🏗 GitHub Action
