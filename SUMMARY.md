@@ -47,6 +47,7 @@
 * [Managing Projects](typescript-sdk/managing-projects.md)
 * [Publishing/fetching Releases](typescript-sdk/publishing-fetching-releases.md)
 * [Managing Products](typescript-sdk/managing-products.md)
+* [TypeDoc](typescript-sdk/typedoc.md)
 
 ## ⚙ Golang SDK
 

@@ -79,3 +79,9 @@ main()
 Here's a live example:
 
 {% embed url="https://replit.com/@AlecWantoch/valist-sdk" %}
+
+### TypeDoc
+
+To view the TypeDoc for the Valist TypeScript SDK, navigate to the following site:
+
+{% embed url="https://jsdocs.valist.io" %}
