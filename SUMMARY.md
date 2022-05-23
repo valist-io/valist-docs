@@ -22,13 +22,13 @@
 
 ## 🏗 GitHub Action
 
-* [Quick Start](github-action/quick-start.md)
+* [GitHub Action Quick Start](github-action/github-action-quick-start.md)
 * [Publishing GitHub Releases automatically to Valist](github-action/publishing-github-releases-automatically-to-valist.md)
 * [Publishing Source Code Snapshots](github-action/publishing-source-code-snapshots.md)
 
 ## 💻 CLI
 
-* [Quick Start](cli/quick-start.md)
+* [CLI Quick Start](cli/cli-quick-start.md)
 
 ## 🌐 Web
 
@@ -41,7 +41,7 @@
 
 ## ⚙ TypeScript SDK
 
-* [Quick Start](typescript-sdk/quick-start.md)
+* [SDK Quick Start](typescript-sdk/sdk-quick-start.md)
 * [Creating a Valist Client](typescript-sdk/creating-a-valist-client.md)
 * [Managing Accounts](typescript-sdk/managing-accounts.md)
 * [Managing Projects](typescript-sdk/managing-projects.md)
@@ -50,7 +50,7 @@
 
 ## ⚙ Golang SDK
 
-* [Quick Start](golang-sdk/quick-start.md)
+* [SDK Quick Start](golang-sdk/sdk-quick-start.md)
 
 ## 🔗 Subgraph
 

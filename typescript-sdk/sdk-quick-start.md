@@ -1,8 +1,8 @@
 ---
-description: Documentation for using the Valist software development Kit.
+description: Documentation for using the TypeScript Valist software development kit.
 ---
 
-# Quick Start
+# SDK Quick Start
 
 Welcome to Valist’s TypeScript SDK v2. It helps developers interact with Valist’s Registry smart contracts, protocols like IPFS, The Graph, OpenGSN, and more, in an easy to use interface.&#x20;
 

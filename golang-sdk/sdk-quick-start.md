@@ -1,4 +1,8 @@
-# Quick Start
+---
+description: Documentation for the Valist Golang software development kit.
+---
+
+# SDK Quick Start
 
 The Valist SDK has a Golang implementation to support common web3 environments. To view the Godoc, navigate to the link below:
 

@@ -1,4 +1,10 @@
-# Valist Action
+---
+description: >-
+  Get started with the Valist GitHub Action to integrate web3 publishing into
+  your CI/CD pipeline
+---
+
+# GitHub Action Quick Start
 
 Valist provides an extremely easy to integrate GitHub Action that enables you to publish anything from source code snapshots, arbitrary binaries, Docker images, NPM packages, or anything else that you're building in your existing CI/CD pipeline!
 

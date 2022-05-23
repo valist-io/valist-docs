@@ -1,4 +1,8 @@
-# Quick Start
+---
+description: Easily publish and download Valist Releases with the Valist CLI.
+---
+
+# CLI Quick Start
 
 The Valist CLI allows you to easily publish, download, and install releases from the command line! It's a great way to easily work with releases without navigating through a frontend. You can also use it to integrate your existing CI/CD workflows.
 
