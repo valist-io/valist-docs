@@ -22,7 +22,7 @@
 
 ## 🏗 GitHub Action
 
-* [Valist Action](github-action/valist-action.md)
+* [Quick Start](github-action/quick-start.md)
 * [Publishing GitHub Releases automatically to Valist](github-action/publishing-github-releases-automatically-to-valist.md)
 * [Publishing Source Code Snapshots](github-action/publishing-source-code-snapshots.md)
 
