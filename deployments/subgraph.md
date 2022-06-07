@@ -1,6 +1,10 @@
-# Endpoints and source
+---
+description: >-
+  The Valist Subgraph indexes multiple Valist contracts and consolidates it into
+  a simple GraphQL interface.
+---
 
-The Valist Subgraph indexes multiple Valist contracts and consolidates it into a simple GraphQL interface.
+# Subgraph
 
 ### Polygon Mainnet
 
