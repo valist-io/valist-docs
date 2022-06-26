@@ -6,6 +6,20 @@ description: >-
 
 # GitHub Action Quick Start
 
+### Create an account & project
+
+To publish with the CLI, you first need to create an account & project at the [Web Dashboard](https://app.valist.io).
+
+For more information, visit:
+
+{% content-ref url="../web/publishing-releases/creating-an-account.md" %}
+[creating-an-account.md](../web/publishing-releases/creating-an-account.md)
+{% endcontent-ref %}
+
+{% content-ref url="../videos/creating-a-project.md" %}
+[creating-a-project.md](../videos/creating-a-project.md)
+{% endcontent-ref %}
+
 Valist provides an extremely easy to integrate GitHub Action that enables you to publish anything from source code snapshots, arbitrary binaries, Docker images, NPM packages, or anything else that you're building in your existing CI/CD pipeline!
 
 It can be found in the GitHub Marketplace below:

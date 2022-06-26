@@ -23,7 +23,7 @@ To install the CLI, you will need Node.js v16+ installed.
 npm install -g @valist/cli
 ```
 
-### Importing a key into the CLI wallet
+### Importing a key
 
 The Valist CLI supports importing the following key formats:
 
@@ -31,7 +31,7 @@ The Valist CLI supports importing the following key formats:
 * Encrypted JSON Keystore (MyCrypto, Geth, etc)
 * Mnemonic phrase
 
-To import your key into your secure keystore, run the following:
+To import your key, run the following:
 
 ```bash
 valist import
@@ -39,44 +39,20 @@ valist import
 
 This will prompt you to import the key into your system's secure credential storage. You will then be able to use this key for publishing.
 
-{% hint style="info" %}
-Your key is only accessible by you -- this simply copies your key into your system's native secure keystore.
-{% endhint %}
-
-### Create an account & project
-
-To publish with the CLI, you first need to create an account & project at the [Web Dashboard](https://app.valist.io).
-
-For more information, visit:
-
-{% content-ref url="../web/publishing-releases/creating-an-account.md" %}
-[creating-an-account.md](../web/publishing-releases/creating-an-account.md)
-{% endcontent-ref %}
-
-{% content-ref url="../videos/creating-a-project.md" %}
-[creating-a-project.md](../videos/creating-a-project.md)
-{% endcontent-ref %}
-
 ### Publishing a Release
 
 Publishing a Release with the CLI is very simple. You simply need to give it the `account/project/tag` path to publish at, and the set of files to include in the Release.
 
-The format is the following:
-
-```bash
-valist publish <username>/<project>/<version> <folder>/**
-```
-
 An example of this looks like:
 
-```
-valist publish acme-co/go-binary/0.0.1 dist/**
+```bash
+valist publish acme-co/go-binary/0.0.1 dist
 ```
 
 You can also include multiple folders and files. The file paths support [glob patterns](https://github.com/sindresorhus/globby) as well:
 
 ```bash
-valist publish acme-co/go-binary/0.0.2 dist/** src/** README.md
+valist publish acme-co/go-binary/0.0.2 dist/* src/* README.md
 ```
 
 This will upload the files to IPFS, and trigger the publish. Meta-transactions are enabled by default, so you won't need to spend any gas.
