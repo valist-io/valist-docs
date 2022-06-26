@@ -23,7 +23,7 @@ To install the CLI, you will need Node.js v16+ installed.
 npm install -g @valist/cli
 ```
 
-### Importing a key into your secure keystore
+### Importing a key into the CLI wallet
 
 The Valist CLI supports importing the following key formats:
 
