@@ -14,12 +14,15 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+        with:
+            path: './'
       - uses: valist-io/valist-github-action@v2.2.0
         with:
-          private-key: ${{ secrets.PRIVATE_KEY }}
+          private-key: ${{ secrets.VALIST_SIGNER }}
           account: acme-co
           project: example
-          release: 0.0.1
+          release: 1.1.2
           files: '**'
 ```
 
