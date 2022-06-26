@@ -23,7 +23,7 @@ To install the CLI, you will need Node.js v16+ installed.
 npm install -g @valist/cli
 ```
 
-### Importing a key
+### Importing a key into your secure keystore
 
 The Valist CLI supports importing the following key formats:
 
@@ -31,13 +31,17 @@ The Valist CLI supports importing the following key formats:
 * Encrypted JSON Keystore (MyCrypto, Geth, etc)
 * Mnemonic phrase
 
-To import your key, run the following:
+To import your key into your secure keystore, run the following:
 
 ```bash
 valist import
 ```
 
 This will prompt you to import the key into your system's secure credential storage. You will then be able to use this key for publishing.
+
+{% hint style="info" %}
+Your key is only accessible by you -- this simply copies your key into your system's native secure keystore.
+{% endhint %}
 
 ### Create an account & project
 
