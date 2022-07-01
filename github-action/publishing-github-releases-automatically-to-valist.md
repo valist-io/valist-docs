@@ -21,13 +21,13 @@ jobs:
           tarBall: true
           zipBall: true
           fileName: "*"
-      - uses: valist-io/valist-github-action@v2.2.0
+      - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: nasdf
           project: ipfs
           release: ${{ env.TIMESTAMP }}
-          files: '**'
+          path: '**'
 ```
 
 The first section `on` defines when your Action should run. In this case, it will trigger upon a GitHub Release being published

@@ -34,13 +34,13 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: valist-io/valist-github-action@v2.2.0
+      - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: acme-co
           project: example
           release: 0.0.1
-          files: '**'
+          path: 'build'
 ```
 
 Super easy!

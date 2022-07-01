@@ -17,13 +17,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
             path: './'
-      - uses: valist-io/valist-github-action@v2.2.0
+      - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.VALIST_SIGNER }}
           account: acme-co
           project: example
           release: 1.1.2
-          files: '**'
+          path: './'
 ```
 
 This will create a Valist Release every time you merge into your main branch!
