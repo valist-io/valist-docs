@@ -53,7 +53,8 @@
 
 * [SDK Quick Start](golang-sdk/sdk-quick-start.md)
 
-## 🔗 Deployments
+## 🔗 Live Deployments
 
-* [Smart Contracts](deployments/smart-contracts.md)
-* [Subgraph](deployments/subgraph.md)
+* [Smart Contracts](live-deployments/smart-contracts.md)
+* [Subgraph](live-deployments/subgraph.md)
+* [Gas Tank](live-deployments/gas-tank.md)
