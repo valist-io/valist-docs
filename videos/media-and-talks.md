@@ -18,3 +18,9 @@ This is a great technical overview web3-native software distribution.
 BuildQuest is a gaming and metaverse hackathon. Check out the workshop "Distributing and monetizing your game with Valist" to learn how to token-gate a Unity game with the Software License NFT feature.
 
 {% embed url="https://www.youtube.com/watch?v=aurYZhPkRQw" %}
+
+**Valist @ ETHNewYork 2022**
+
+ETHNewYork is one of the largest IRL web3 conferences, and Valist gave a workshop on web3-native software distribution, and an into to Software License NFTs!
+
+{% embed url="https://www.youtube.com/watch?v=_RqN0eeGQUQ" %}
