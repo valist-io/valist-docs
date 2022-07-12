@@ -23,9 +23,47 @@ To install the CLI, you will need Node.js v16+ installed.
 npm install -g @valist/cli
 ```
 
-### Importing a key into the CLI wallet
+### Create an account & project
 
-The Valist CLI supports importing the following key formats:
+To publish with the CLI, you first need to create an account & project at the [Web Dashboard](https://app.valist.io).
+
+For more information, visit:
+
+{% content-ref url="../web/publishing-releases/creating-an-account.md" %}
+[creating-an-account.md](../web/publishing-releases/creating-an-account.md)
+{% endcontent-ref %}
+
+{% content-ref url="../videos/creating-a-project.md" %}
+[creating-a-project.md](../videos/creating-a-project.md)
+{% endcontent-ref %}
+
+### Generating or importing a key in the CLI wallet
+
+**Generating a fresh key (recommended, most secure method)**
+
+The most recommended configuration is to generate a fresh key in the CLI, then add that address to the designated account or project you wish to publish to.
+
+To generate a new key and store it directly into your secure keystore, run the following:
+
+```
+valist keygen
+```
+
+This will print out an address like so:
+
+![](../.gitbook/assets/image.png)
+
+Next, you will need to add this key to your desired project or account members to give it access to publish. Navigate to your project or account settings in the web dashboard, and add the key like so:
+
+![](<../.gitbook/assets/image (1).png>)
+
+{% hint style="warning" %}
+This step is required before the CLI can publish under the account or project.
+{% endhint %}
+
+**Importing a Key (easiest, less secure)**
+
+The Valist CLI also supports importing the following key formats:
 
 * Private Key Hex string
 * Encrypted JSON Keystore (MyCrypto, Geth, etc)
@@ -42,20 +80,6 @@ This will prompt you to import the key into your system's secure credential stor
 {% hint style="info" %}
 Your key is only accessible by you -- this simply copies your key into your system's native secure keystore.
 {% endhint %}
-
-### Create an account & project
-
-To publish with the CLI, you first need to create an account & project at the [Web Dashboard](https://app.valist.io).
-
-For more information, visit:
-
-{% content-ref url="../web/publishing-releases/creating-an-account.md" %}
-[creating-an-account.md](../web/publishing-releases/creating-an-account.md)
-{% endcontent-ref %}
-
-{% content-ref url="../videos/creating-a-project.md" %}
-[creating-a-project.md](../videos/creating-a-project.md)
-{% endcontent-ref %}
 
 ### Publishing a Release
 

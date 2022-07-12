@@ -26,7 +26,7 @@ There are two main components to make this possible:
 
 The general workflow looks like the following:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 First, a developer creates an account and a project on the Valist Registry smart contract.
 
