@@ -14,16 +14,17 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "TIMESTAMP=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
-            path: './'
+            path: '.'
       - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.VALIST_SIGNER }}
-          account: acme-co
-          project: example
-          release: 1.1.2
-          path: './'
+          account: your-valist-account
+          project: your-valist-project
+          release: ${{ env.TIMESTAMP }}
+          path: '.'
 ```
 
 This will create a Valist Release every time you merge into your main branch!
