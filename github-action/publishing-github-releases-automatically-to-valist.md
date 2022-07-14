@@ -16,7 +16,7 @@ jobs:
       - run: echo "TIMESTAMP=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
       - uses: robinraju/release-downloader@v1.3
         with:
-          repository: "ipfs/go-ipfs"
+          repository: "your-github-account/your-github-repo"
           latest: true
           tarBall: true
           zipBall: true
@@ -24,10 +24,10 @@ jobs:
       - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.PRIVATE_KEY }}
-          account: nasdf
-          project: ipfs
+          account: your-valist-account
+          project: your-valist-project
           release: ${{ env.TIMESTAMP }}
-          path: '**'
+          path: '.'
 ```
 
 The first section `on` defines when your Action should run. In this case, it will trigger upon a GitHub Release being published
