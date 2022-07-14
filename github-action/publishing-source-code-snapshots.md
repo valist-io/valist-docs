@@ -14,15 +14,16 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "TIMESTAMP=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
             path: './'
       - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.VALIST_SIGNER }}
-          account: acme-co
-          project: example
-          release: 1.1.2
+          account: your-account
+          project: your-project
+          release: ${{ env.TIMESTAMP }}
           path: './'
 ```
 
