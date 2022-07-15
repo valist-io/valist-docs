@@ -51,14 +51,8 @@ Super easy!
 * The `release` field maps to the version/tag you wish to release
 * The `files` field is a list of files that you wish to publish in the release. In this case, the `**` value will publish all files in the repository, creating a source code snapshot.
 
-For a set of examples, check out these repositories below:
+For a set of examples, check out this repository below:
 
 {% embed url="https://github.com/valist-io/valist-github-action-examples/tree/main/.github/workflows" %}
-
-{% embed url="https://github.com/awantoch/valist-publish-gha-example" %}
-
-{% hint style="info" %}
-Want to add your example to these docs? Please feel free to open a PR or contact us at hello@valist.io 😄
-{% endhint %}
 
 The Valist Action is built to be modular, and compatible with your existing pipeline. There are many ways to configure it! Next, we'll demonstrate how to automatically publish your GitHub Releases with it!

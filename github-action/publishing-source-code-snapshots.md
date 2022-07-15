@@ -29,6 +29,12 @@ jobs:
 
 This will create a Valist Release every time you merge into your main branch!
 
-For a set of examples, check out this repository below:
+For a set of examples, check out these repositories below:
 
 {% embed url="https://github.com/valist-io/valist-github-action-examples/tree/main/.github/workflows" %}
+
+{% embed url="https://github.com/awantoch/valist-publish-gha-example/blob/main/.github/workflows/snapshot.yml" %}
+
+{% hint style="info" %}
+Want to add your example to these docs? Please feel free to open a PR or contact us at hello@valist.io 😄
+{% endhint %}
