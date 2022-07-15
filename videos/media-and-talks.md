@@ -24,3 +24,9 @@ BuildQuest is a gaming and metaverse hackathon. Check out the workshop "Distribu
 ETHNewYork is one of the largest IRL web3 conferences, and Valist gave a workshop on web3-native software distribution, and an into to Software License NFTs!
 
 {% embed url="https://www.youtube.com/watch?v=_RqN0eeGQUQ" %}
+
+**Valist @ HackFS 2022**
+
+HackFS is a hackathon by ETHGlobal and Protocol Labs, with the mission to build the foundation for the decentralized web. Valist gave a talk on how to publish your apps, games, binaries and more in web3!
+
+{% embed url="https://www.youtube.com/watch?v=xZ0aUzqobfk" %}
