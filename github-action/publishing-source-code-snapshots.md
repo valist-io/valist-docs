@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
             path: '.'
-      - uses: valist-io/valist-github-action@v2.3.0
+      - uses: valist-io/valist-github-action@v2.3.1
         with:
           private-key: ${{ secrets.VALIST_SIGNER }}
           account: your-valist-account
