@@ -39,7 +39,7 @@ jobs:
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: acme-co
           project: example
-          release: 0.0.1
+          release: ${{ github.ref_name }} # this can be whatever tag you wish to use
           path: 'build'
 ```
 
