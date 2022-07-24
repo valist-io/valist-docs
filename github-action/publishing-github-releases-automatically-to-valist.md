@@ -21,7 +21,7 @@ jobs:
           tarBall: true
           zipBall: true
           fileName: "*"
-      - uses: valist-io/valist-github-action@v2.3.1
+      - uses: valist-io/valist-github-action@v2.4.0
         with:
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: your-valist-account
