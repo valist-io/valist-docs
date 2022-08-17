@@ -34,7 +34,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: valist-io/valist-github-action@v2.4.0
+      - uses: valist-io/valist-github-action@v2.5.3
         with:
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: acme-co
