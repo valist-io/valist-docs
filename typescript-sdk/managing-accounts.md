@@ -125,7 +125,7 @@ async addAccountMember(
 
 #### removeAccountMember
 
-Removes an address form the account.&#x20;
+Removes an address from the account.&#x20;
 
 ```javascript
 async removeAccountMember(
