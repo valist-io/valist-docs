@@ -2,7 +2,7 @@
 
 Publishing source code snapshots is a great way to make sure your code is distributed on web3 protocols, available to anyone. It's also super easy to do, making it an excellent choice even if you're not publishing binary artifacts!
 
-Here's an example for how to publish your repository contents:
+Here's an example on how to publish your repository contents:
 
 ```yaml
 name: Valist Snapshot
