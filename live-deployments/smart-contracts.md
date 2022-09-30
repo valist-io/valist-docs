@@ -1,5 +1,7 @@
 ---
-description: List of deployed Valist contracts with addresses
+description: >-
+  List of deployed Valist contracts with addresses, and how to interact with
+  them directly.
 ---
 
 # Smart Contracts

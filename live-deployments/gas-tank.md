@@ -7,7 +7,7 @@ description: >-
 
 # Gas Tank
 
-The Valist OpenGSN Gas Tank is what powers the metatransaction system. Here you can find a convenient web app to view the current balance and easily fund the tank.
+The Valist OpenGSN Gas Tank is what powers the meta-transaction system. Here you can find a convenient web app to view the current balance and easily fund the tank.
 
 To view the current balance, click the app below:
 

@@ -32,4 +32,4 @@ The source code for the Valist Subgraph can be found here, which contains everyt
 
 For this, you will need to deploy your own graph node. Here's a docker-compose file that can help get you started -- however please note **this is not secure out of the box, you will need to configure your database and networking/firewall properly.**
 
-{% embed url="https://gist.github.com/awantoch/decee0e9117a0dd0bc4c54535cc04e1e" %}
+{% embed url="https://gist.github.com/awantoch/decee0e9117a0dd0bc4c54535cc04e1e#file-docker-compose-yml" %}
