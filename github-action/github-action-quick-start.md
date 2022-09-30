@@ -57,6 +57,8 @@ For a set of examples, check out these repositories below:
 
 {% embed url="https://github.com/awantoch/valist-publish-gha-example" %}
 
+{% embed url="https://github.com/Abbas-Khann/NFTicket/blob/main/.github/workflows/valist.yml" %}
+
 {% hint style="info" %}
 Want to add your example to these docs? Please feel free to open a PR or contact us at hello@valist.io 😄
 {% endhint %}
