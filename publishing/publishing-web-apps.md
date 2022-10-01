@@ -21,8 +21,8 @@ For Next.js, you'll need to run `next export` to create an `out` folder instead 
 
 For specific examples, check out below:
 
-{% tabs %}
-{% tab title="Next.js" %}
+
+#### Next.js
 Creating a Next.js project:
 
 ```bash
@@ -45,7 +45,7 @@ This can be done by copying and adding `"export": "next export",` line under the
 
 Unfortunately, Next.js server-side features like image optimization and API routes are not supported in static build environments. If you are using `next/image` for your images, you will need to add the following to your `next.config.js` file:
 
-{% code title="next.config.js" %}
+##### next.config.js
 ```javascript
 experimental: {
     images: {
@@ -53,11 +53,11 @@ experimental: {
     },
   },
 ```
-{% endcode %}
+
 
 Otherwise, you will see an error like the following:
 
-{% hint style="warning" %}
+
 ```bash
 Error: Image Optimization using Next.js' default loader is not compatible with `next export`.
   Possible solutions:
@@ -65,7 +65,7 @@ Error: Image Optimization using Next.js' default loader is not compatible with `
     - Configure `images.unoptimized = true` in `next.config.js` to disable the Image Optimization API.
   Read more: https://nextjs.org/docs/messages/export-image-api
 ```
-{% endhint %}
+
 
 You can still communicate with existing HTTP backends via the static frontend!
 
@@ -84,12 +84,10 @@ This will then create a folder named `out` in the project directory. Feel free t
 
 A working example can be found here:
 
-{% embed url="https://github.com/valist-io/example-projects/blob/main/nextjs-project/package.json#L8" %}
-Example Next.js project & package.json config
-{% endembed %}
-{% endtab %}
+[Example Next.js project & package.json config](https://github.com/valist-io/example-projects/blob/main/nextjs-project/package.json#L8)
 
-{% tab title="Create React App" %}
+
+#### Create React App
 Creating a React app:
 
 ```bash
@@ -110,26 +108,22 @@ This will create your `build` folder.
 
 That's it! **Remember,** since Valist is powered by IPFS, you'll need to use hash-based routing instead of path-based. For more information, check out:
 
-{% embed url="https://v5.reactrouter.com/web/api/HashRouter" %}
+[https://v5.reactrouter.com/web/api/HashRouter](https://v5.reactrouter.com/web/api/HashRouter)
 
-{% embed url="https://www.upbeatcode.com/react/using-hashrouter-with-react-definitive-guide/" %}
+[https://www.upbeatcode.com/react/using-hashrouter-with-react-definitive-guide/](https://www.upbeatcode.com/react/using-hashrouter-with-react-definitive-guide/)
 
 #### Live Example
 
 A working example can be found here:
 
-{% embed url="https://github.com/valist-io/example-projects/tree/main/react-project" %}
-Create React App
-{% endembed %}
-{% endtab %}
-{% endtabs %}
+[Create React App](https://github.com/valist-io/example-projects/tree/main/react-project)
 
 Now that you've built your application, you have 3 different options for publishing depending on your preferences!
 
 ### Step 2: Publishing a Release
 
-{% tabs %}
-{% tab title="Web Dashboard" %}
+
+#### Web Dashboard
 To publish a Release with the web dashboard, make sure your `Project Type` is set to `web` in the settings, then click `New Release` on your project page.
 
 This will show a simple upload form:
@@ -146,14 +140,14 @@ The next tab allows you to drag and drop or click to upload a folder. Here is wh
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 After clicking `Create`, you will be prompted to sign a message for the release! 🚀
-{% endtab %}
 
-{% tab title="CLI" %}
+
+#### CLI
 **Note: First, you'll need to install and setup your Valist CLI by configuring the key it uses to publish.** If you haven't done this yet, visit the CLI quick start (it will take less than 5 min):
 
-{% content-ref url="../quick-start/cli.md" %}
+
 [cli.md](../quick-start/cli.md)
-{% endcontent-ref %}
+
 
 Publishing a web app with the Valist CLI is easy, simply run the following:
 
@@ -196,14 +190,14 @@ This is typically used to configure multi-platform releases (Mac/Windows/Linux/A
 
 An example for a web app looks like the following:
 
-{% code title="valist.yml" %}
+##### valist.yml
 ```yaml
 account: acme-co
 project: next-project
 release: 0.0.1
 path: out
 ```
-{% endcode %}
+
 
 Once the `valist.yml` file is saved, simply run:
 
@@ -212,14 +206,12 @@ valist publish
 ```
 
 It will use these values instead of the CLI arguments, making it an easy way to keep track of the previous release!
-{% endtab %}
 
-{% tab title="GitHub Action" %}
+
+#### GitHub Action
 **Note: For more information about how the GitHub Action works, visit the following page. If you're familiar with the CLI, configuring the GitHub Action is very similar:**
 
-{% content-ref url="../quick-start/github-action.md" %}
 [github-action.md](../quick-start/github-action.md)
-{% endcontent-ref %}
 
 Building and publishing a web app with the Valist GitHub Action is easy!
 
@@ -230,7 +222,7 @@ You simply need:
 
 Create a `.github/workflows/valist.yml` file like the following:
 
-{% code title="valist.yml" %}
+##### valist.yml
 ```yaml
 name: Valist Publish
 on:
@@ -267,7 +259,6 @@ jobs:
           path: out
 
 ```
-{% endcode %}
 
 In this example, the Valist Publish step contains:
 
@@ -281,17 +272,12 @@ In this example, the Valist Publish step contains:
 
 A working example can be found here:
 
-{% embed url="https://github.com/valist-io/example-projects/blob/main/.github/workflows/nextjs-project.yml" %}
-Publish Next.js app with the Valist GHA
-{% endembed %}
+[Publish Next.js app with the Valist GHA](https://github.com/valist-io/example-projects/blob/main/.github/workflows/nextjs-project.yml)
 
-{% embed url="https://github.com/valist-io/example-projects/runs/8144882618?check_suite_focus=true" %}
-Successful Workflow run
-{% endembed %}
+[Successful Workflow run](https://github.com/valist-io/example-projects/runs/8144882618?check_suite_focus=true)
 
 Congratulations! You now have your web app building and publishing automatically to web3! 🚀
-{% endtab %}
-{% endtabs %}
+
 
 That's all you need to publish web apps with Valist!
 
@@ -314,16 +300,12 @@ You only want to access web apps from IPFS via the first type of gateway. This i
 
 More information can be found here:
 
-{% embed url="https://consensys.net/diligence/blog/2021/06/ipfs-gateway-security/" %}
+[https://consensys.net/diligence/blog/2021/06/ipfs-gateway-security/](https://consensys.net/diligence/blog/2021/06/ipfs-gateway-security/)
 
 ### Example Projects
 
 We also have examples for common JavaScript frameworks like Next.js and Create React App, check them out below!
 
-{% embed url="https://github.com/valist-io/example-projects/tree/main/nextjs-project" %}
-Next.js App
-{% endembed %}
+[Next.js App](https://github.com/valist-io/example-projects/tree/main/nextjs-project)
 
-{% embed url="https://github.com/valist-io/example-projects/tree/main/react-project" %}
-Create React App
-{% endembed %}
+[Create React App](https://github.com/valist-io/example-projects/tree/main/react-project)
