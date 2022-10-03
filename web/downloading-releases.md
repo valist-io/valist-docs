@@ -16,4 +16,4 @@ Clicking the relevant file will change the `Download` button to point at that fi
 
 ![](<../.gitbook/assets/image (4).png>)
 
-Congratulations, you're now downloaded software in a web3-native way! 🚀
+Congratulations, you've now downloaded software in a web3-native way! 🚀
