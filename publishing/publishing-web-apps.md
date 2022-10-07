@@ -274,8 +274,7 @@ In this example, the Valist Publish step contains:
 * The `private-key` of the address that has access to this Valist Project.
 * The Valist `account` name.
 * The Valist `project` name.
-* The Valist `release` name. This works the same way as the `account` and `project` names -- it is an immu
-le tag that represents the version of the release, and is accessible at the `account/project/release` path once published.
+* The Valist `release` name. This works the same way as the `account` and `project` names -- it is an immule tag that represents the version of the release, and is accessible at the `account/project/release` path once published.
 * The `path` of the folder you wish to publish. In this example, it's the static Next.js output folder.
 
 #### Live Example
