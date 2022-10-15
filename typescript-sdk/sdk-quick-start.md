@@ -26,19 +26,19 @@ Everything is abstracted into a clean interface, and all you need to get started
 To start using the SDK, simply install it into your project...
 
 ```bash
-npm install @valist/valist-sdk
+npm install @valist/sdk
 ```
 
 Then, you can import the `create` function to create a Valist client!
 
 ```jsx
-import { create } from "@valist/valist-sdk"
+import { create } from "@valist/sdk"
 ```
 
 If there are other functions with the same name (i.e., IPFS client library), you can import it like this instead:
 
 ```javascript
-import { create as createValist } from "@valist/valist-sdk"
+import { create as createValist } from "@valist/sdk"
 ```
 
 Below is an example of creating a Valist Client and fetching some Project and Release metadata:
