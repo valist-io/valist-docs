@@ -1,5 +1,5 @@
 ---
-description: Valist is the web3-native software publishing protocol.
+description: Valist is the web3-native software publishing protocol & app store.
 ---
 
 # 🌄 Intro to Valist
@@ -8,7 +8,7 @@ description: Valist is the web3-native software publishing protocol.
 
 {% embed url="https://youtu.be/7ak6PQPDBkk" %}
 
-Valist is the web3-native software publishing protocol.
+Valist is the web3-native software publishing protocol & app store.
 
 You can think of it as the App Store, or Steam, but for Web3 -- no reliance on a single entity to deliver software from the developer to the end user!
 
