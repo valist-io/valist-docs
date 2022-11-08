@@ -47,11 +47,9 @@ Unfortunately, Next.js server-side features like image optimization and API rout
 
 {% code title="next.config.js" %}
 ```javascript
-experimental: {
-    images: {
+images: {
       unoptimized: true,
-    },
-  },
+},
 ```
 {% endcode %}
 
