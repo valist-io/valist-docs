@@ -43,13 +43,21 @@ First, you will need to add `next export` to your `package.json`:
 
 This can be done by copying and adding `"export": "next export",` line under the `build` script.
 
-Unfortunately, Next.js server-side features like image optimization and API routes are not supported in static build environments. If you are using `next/image` for your images, you will need to add the following to your `next.config.js` file:
+Unfortunately, Next.js server-side features like image optimization and API routes are not supported in static build environments. If you are using `next/image` for your images, you will need to add an `images` property to the `nextConfig` object in your `next.config.js` file. The value of `image` should be an object having a property called `unoptimized` set to `true`. For example:
 
 {% code title="next.config.js" %}
 ```javascript
+const nextConfig={
+
+...
+
 images: {
       unoptimized: true,
 },
+
+...
+
+}
 ```
 {% endcode %}
 
