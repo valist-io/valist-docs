@@ -33,7 +33,7 @@ jobs:
 
 Here's an [example run](https://github.com/awantoch/valist-publish-gha-example/runs/8096182559) of a React app being published:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Super easy!
 
@@ -65,7 +65,7 @@ This will securely generate and output a private key and a public address that y
 
 Copy this private key, and add it as a GitHub Repository Secret called `VALIST_SIGNER`:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, you will need to add this key to your desired project or account members to give it access to publish.
 

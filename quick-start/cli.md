@@ -19,7 +19,7 @@ The Valist CLI supports all of the core publishing functionality of Valist, incl
 * Downloading releases, for example `valist download example-account/go-binary`
 * Gasless meta-transactions powered by [OpenGSN](https://github.com/opengsn/gsn)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>The Valist CLI</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>The Valist CLI</p></figcaption></figure>
 
 ### Installation
 

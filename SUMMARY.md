@@ -14,6 +14,7 @@
 * [🌐 Publishing Web Apps](publishing/publishing-web-apps.md)
 * [⚙ Publishing Binaries & Executables](publishing/publishing-binaries-and-executables.md)
 * [🎮 Publishing Unity Projects](publishing/publishing-unity-projects.md)
+* [🚀 Publishing using CI/CD](publishing/publishing-using-ci-cd.md)
 
 ## Monetization
 

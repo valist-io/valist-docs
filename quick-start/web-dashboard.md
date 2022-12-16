@@ -26,7 +26,7 @@ If you've chosen `native` or `cli`, the uploader will show buttons for the suppo
 
 All you need to do is name your release with an immutable tag, and select your files:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you're uploading a `web` project, you will see the following uploader:
 

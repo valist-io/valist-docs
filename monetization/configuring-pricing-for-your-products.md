@@ -54,6 +54,6 @@ Once you configure this, your Software License NFT will comply with the [ERC-298
 
 The `Withdraw` tab shows your token balances across your accepted payment currencies, and enables you to withdraw a specific amount like so:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 The funds are stored in the Software License NFT contract, and **any Valist Account admin** can trigger this function call, so be mindful who you give access!

@@ -19,7 +19,7 @@ You can set this in your Project Settings by visiting your project, and clicking
 
 This will take you to your Project Details, where you can configure the Project Type:
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 Setting this to `web` will tell Valist to open this in browsers or WebViews, and will show a regular folder uploader on the Web Dashboard Publishing page.
 
