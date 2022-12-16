@@ -15,7 +15,7 @@ To get started, link your GitHub repository to the project you created. You can 
 Here's the flow that will happen:
 
 1. The browser will securely generate a fresh, unique `Ethereum key` for your project.
-2. The `public key` address will be added to the Valist Project, and the `private key` will be stored in the chosen GitHub repository as a confidential secret labeled `VALIST_SIGNER`.
+2. The `public key` address will be added to the Valist Project, and the `private key` will be stored in the chosen GitHub repository as a confidential secret labeled **VALIST\_SIGNER**.
 
 This gives the GitHub Action access to your Valist project without compromising on security!
 
@@ -23,7 +23,7 @@ This gives the GitHub Action access to your Valist project without compromising 
 
 ### Step 2: Configuring your builds
 
-_The next step is a crucial one._&#x20;
+> **Important**: The next step is a crucial one.&#x20;
 
 It is essential to ensure that you have configured your builds accurately. Double-check that the environment and framework you are using match your localhost environment. This will help ensure everything runs smoothly and is properly set up.&#x20;
 
@@ -53,12 +53,12 @@ Once you have completed the steps above, hit the `Deploy` button. A transaction 
 
 ### Step 6: Merge the PR!
 
-Once the transaction is processed, a Pull Request will be generated for your connected GitHub repository. A prompt on your screen will appear, which will direct you to the Pull Requests page.&#x20;
+Once the transaction is processed, a Pull Request will be generated for your connected GitHub repository. A prompt will appear on your screen, which will direct you to the Pull Requests page.&#x20;
 
-Merge the Pull Request and wait for Valist's Github Action to build.
+Merge the Pull Request and wait for Valist's Github Action to build your code.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 _That's it! 🚀_ &#x20;
 
-That's how easily you can have a CI/CD pipeline and publish your applications on Valist. You can now access this from anywhere in the Valist ecosystem, and from IPFS directly!
+That's how easily you can create a full CI/CD pipeline to publish your applications on Valist. You can now access your releases from anywhere in the Valist ecosystem, and from IPFS directly!
