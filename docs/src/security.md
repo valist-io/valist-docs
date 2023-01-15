@@ -75,11 +75,11 @@ valist threshold [org-name]/[repo-name] [threshold-number]
 
 ## Voting on Access Control & Releases
 
-After a repository or organization's threshold it set to a number greater than **1**, all operations will require the target number of votes before they are finalized.
+After a repository or organization's threshold is set to a number greater than **1**, all operations will require the target number of votes before they are finalized.
 
 ## Considerations
 
-* By design the repository threshold can only be set to a maximum of `n-1`. This it to create a permanent buffer of 1 key so that by default if members misplace a key they do not loose access to their organization or repository.
+* By design the repository threshold can only be set to a maximum of `n-1`. This is to create a permanent buffer of 1 key so that by default if members misplace a key they do not lose access to their organization or repository.
 
 * When revoking a key from an organization or repository if the number of remaining keys is equal to the current threshold then the threshold will be automatically decreased by one.
 
