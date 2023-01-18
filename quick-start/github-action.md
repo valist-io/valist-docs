@@ -148,8 +148,8 @@ Want to add your example to these docs? Please feel free to open a PR or contact
 
 The Valist Action is built to be modular, and compatible with your existing pipeline. There are many ways to configure it! Take a look at the following pages for more examples of how to use it:
 
-{% content-ref url="../publishing/publishing-web-apps.md" %}
-[publishing-web-apps.md](../publishing/publishing-web-apps.md)
+{% content-ref url="../publishing/publishing-web-apps/" %}
+[publishing-web-apps](../publishing/publishing-web-apps/)
 {% endcontent-ref %}
 
 {% content-ref url="../publishing/publishing-binaries-and-executables.md" %}

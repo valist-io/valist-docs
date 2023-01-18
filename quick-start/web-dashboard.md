@@ -20,7 +20,7 @@ On the Dashboard, the top left corner enables you to switch between your Valist 
 
 Depending on your `Project Type` in your project settings, you will see two different upload screens when creating a Release.
 
-If you've chosen `web` as your project, you will see a standard drag-and-drop uploader that you can use to upload your app's build folder (see [publishing-web-apps.md](../publishing/publishing-web-apps.md "mention") for more).
+If you've chosen `web` as your project, you will see a standard drag-and-drop uploader that you can use to upload your app's build folder (see [publishing-web-apps](../publishing/publishing-web-apps/ "mention") for more).
 
 If you've chosen `native` or `cli`, the uploader will show buttons for the supported platform/architecture combinations (see [publishing-binaries-and-executables.md](../publishing/publishing-binaries-and-executables.md "mention") for more).
 

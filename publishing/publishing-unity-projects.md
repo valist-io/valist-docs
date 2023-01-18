@@ -51,8 +51,8 @@ Depending on your Project Type, you will have slightly different publishing flow
 
 For `web` projects, follow from Step 2 of the following page:
 
-{% content-ref url="publishing-web-apps.md" %}
-[publishing-web-apps.md](publishing-web-apps.md)
+{% content-ref url="publishing-web-apps/" %}
+[publishing-web-apps](publishing-web-apps/)
 {% endcontent-ref %}
 
 #### Native Projects:

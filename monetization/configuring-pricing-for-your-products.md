@@ -32,7 +32,7 @@ By clicking the `Add Currency` button, you will be able to enable various suppor
 
 This list is provided as a convenient, verified list, but custom tokens are also supported! This is especially useful if you have an in-game currency, or protocol token.
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Add ERC20 tokens as payment methods for your Software License NFT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Add ERC20 tokens as payment methods for your Software License NFT</p></figcaption></figure>
 
 Once you add the tokens you wish to accept as payments, you will see them appear in the list:
 
@@ -54,6 +54,6 @@ Once you configure this, your Software License NFT will comply with the [ERC-298
 
 The `Withdraw` tab shows your token balances across your accepted payment currencies, and enables you to withdraw a specific amount like so:
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 The funds are stored in the Software License NFT contract, and **any Valist Account admin** can trigger this function call, so be mindful who you give access!

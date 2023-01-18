@@ -37,7 +37,7 @@ After you've successfully configured your build, choose a platform where you wan
 
 _Valist will soon give you the option to select from various platforms to publish your application._
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4: Add Integrations
 

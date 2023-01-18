@@ -32,7 +32,7 @@ Once you've filled out this meta-data, you will be asked to setup the `Account M
 
 Once you click `Create`, a message signature request will pop-up on your wallet, like so:
 
-<img src="../.gitbook/assets/image (42).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (45).png" alt="" data-size="original">
 
 This is a "meta-transaction" -- meaning, the Valist protocol is paying the gas and creating the on-chain transaction for you! All Valist needs is a signature from your wallet approving the transaction. If you're using MetaMask, you may have to click the small arrow on the bottom right to enable the `Sign` button.
 
