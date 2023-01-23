@@ -14,9 +14,9 @@
 * [🌐 Publishing Web Apps](publishing/publishing-web-apps/README.md)
   * [Publishing a Next JS App](publishing/publishing-web-apps/publishing-a-next-js-app.md)
   * [Publishing a React JS App](publishing/publishing-web-apps/publishing-a-react-js-app.md)
-* [⚙ Publishing Binaries & Executables](publishing/publishing-binaries-and-executables.md)
 * [🎮 Publishing Unity Projects](publishing/publishing-unity-projects.md)
 * [🚀 Publishing using CI/CD](publishing/publishing-using-ci-cd.md)
+* [⚙ Publishing Binaries & Executables](publishing/publishing-binaries-and-executables.md)
 
 ## Monetization
 

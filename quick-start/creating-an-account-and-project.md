@@ -16,23 +16,23 @@ Valist Web Dashboard
 
 This will display the onboarding welcome page:
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.12.44 PM.png" alt=""><figcaption></figcaption></figure>
 
 You'll then be prompted to create an account.
 
 The `Account Name` is your Valist username -- this will abstract away all of the other keys associated with the account into a human-readable namespace that can also act as an organization account. This is unique, and cannot be changed, so pick wisely!
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.16.06 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you've filled out this meta-data, you will be asked to setup the `Account Members`:
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.16.39 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 **This is a super important step!** This is the list of addresses that will become administrators on this account. Every account member has access to publish across any project within the account, as well as modify other account & project settings. Be mindful who you give access here! For even higher security, you can also put a Gnosis Safe Multi-sig here (_**\*Polygon only**_) to ensure that multiple admins need to sign off on an action.
 
 Once you click `Create`, a message signature request will pop-up on your wallet, like so:
 
-<img src="../.gitbook/assets/image (45).png" alt="" data-size="original">
+![](<../.gitbook/assets/Screenshot 2023-01-23 at 9.17.18 PM.png>)
 
 This is a "meta-transaction" -- meaning, the Valist protocol is paying the gas and creating the on-chain transaction for you! All Valist needs is a signature from your wallet approving the transaction. If you're using MetaMask, you may have to click the small arrow on the bottom right to enable the `Sign` button.
 
@@ -46,7 +46,7 @@ Filling in as much detail about your project is key, as it will enable your app 
 
 Be mindful of the `Project Type` field as well -- this is the field that indicates how to consume your software. If it's `web`, Valist will know to launch it like a web app in a Browser or WebView. If it's `native` or `cli`, Valist will know that it needs to show different publishing options for cross-platform builds, and signals to Valist how to install/launch your app.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.20.45 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also add as many tags as you like, including custom tags that aren't in the default list:
 
@@ -54,15 +54,15 @@ You can also add as many tags as you like, including custom tags that aren't in 
 
 The `Descriptions` section also supports Markdown in the long description, so feel free to copy/paste your existing `README.md` file here!
 
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.21.02 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 **Another important configuration** is the project `Members` tab. This is where you configure which addresses will have access to this project. The Account Members already have admin access, so they are shown here for reference, but you can add additional keys to just this project. This is great for adding more team members, or configuring CI/CD only keys with the GitHub Action.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.21.13 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 Lastly, the `Media` tab allows you to add screenshots, and a YouTube URL that will auto-render on the project's page. Feel free to skip this for now, but remember: to qualify for the Discovery page & other Discovery features, you'll need to add at least one screenshot and high quality descriptions!
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-23 at 9.21.57 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Now you're ready to get publishing!
 
