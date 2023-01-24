@@ -1,12 +1,12 @@
 # Repositories
 
-After you have created an organization, you are ready to create a repository. Creating a repository allows you to mange, publish, and retrieve your software releases on Valist.
+After you have created an organization, you are ready to create a repository. Creating a repository allows you to manage, publish, and retrieve your software releases on Valist.
 
 If you have not created an organization yet, don't worry -- creating a repository will automatically prompt you to create the parent organization if it doesn't exist.
 
 ## CLI
 
-To create a new repository on from the CLI, call `valist create` and pass it your `organization` and `repository name`.
+To create a new repository from the CLI, call `valist create` and pass it your `organization` and `repository name`.
 
 ```bash
 valist create [org-name]/[repo-name]

@@ -165,7 +165,7 @@ artifacts:
   windows/amd64: dist/windows64
 ```
 
-Now naviagate to [https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) and set the `VALIST_SIGNER` secret for your reposiotry as your chosen private key.
+Now navigate to [https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) and set the `VALIST_SIGNER` secret for your repository as your chosen private key.
 
 Running the following commands in your project will commit and push triggering a new publish:
 
