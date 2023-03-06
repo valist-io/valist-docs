@@ -9,5 +9,10 @@ Join our [Discord](https://valist.io/discord) to learn more!
 {% hint style="info" %}
 Web app integration coming soon!
 
-You can view the smart contract implementation [here](https://github.com/valist-io/valist-js/blob/dd99daafc1919a1715f678cc54c10c2b2eace8a7/packages/evm-contracts/contracts/ERC-1155/ProofOfContribution.sol) for a sneak peak.
+You can view the smart contract implementation [here](https://remix.ethereum.org/valist-io/valist-js/blob/dd99daafc1919a1715f678cc54c10c2b2eace8a7/packages/evm-contracts/contracts/ERC-1155/ProofOfContribution.sol) for a sneak peak.
 {% endhint %}
+
+{% hint style="info" %}
+You can view the relevant file on GitHub [here](https://github.com/valist-io/valist-js/blob/dd99daafc1919a1715f678cc54c10c2b2eace8a7/packages/evm-contracts/contracts/ERC-1155/ProofOfContribution.sol).
+{% endhint %}
+

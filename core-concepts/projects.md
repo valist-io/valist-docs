@@ -19,3 +19,7 @@ A Project contains:
 {% hint style="info" %}
 You can view the smart contract implementation [here](https://github.com/valist-io/valist-js/blob/main/packages/evm-contracts/contracts/Valist.sol#L103).
 {% endhint %}
+
+{% hint style="info" %}
+You can visit the GitHub repo [here](https://github.com/valist-io/valist-contracts).
+{% endhint %}

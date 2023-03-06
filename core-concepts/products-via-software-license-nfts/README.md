@@ -39,7 +39,7 @@ You can view the smart contract implementation [here](https://remix.ethereum.org
 {% endhint %}
 
 {% hint style="info" %}
-You can visit the GitHub repo [here](https://github.com/valist-io/valist-contracts).
+You can visit the relevant GitHub repo [here](https://github.com/valist-io/valist-contracts).
 {% endhint %}
 
 After creating a License, you can gate your software with it! Click next to learn how 👇

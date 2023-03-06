@@ -40,4 +40,8 @@ Polygon Mumbai: `0x3cE643dc61bb40bB0557316539f4A93016051b81`
 You can view the smart contract implementation [here](https://remix.ethereum.org/valist-io/valist-contracts/blob/main/contracts/token/License.sol).
 {% endhint %}
 
+{% hint style="info" %}
+You can view this file on GitHub using [this link](https://github.com/valist-io/valist-contracts/blob/main/contracts/token/License.sol).
+{% endhint %}
+
 After creating a License, you can gate your software with it! Click next to learn how to create and configure a Software License NFT in your project 🚀
