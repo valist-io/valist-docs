@@ -16,5 +16,8 @@ You should always be able to download the Release from the network given an `acc
 The metadata for a Release complies with common NFT [metadata structure](https://docs.opensea.io/docs/metadata-standards#metadata-structure) so it can easily be rendered on NFT galleries and in wallets.
 
 {% hint style="info" %}
-You can view the smart contract implementation [here](https://github.com/valist-io/valist-js/blob/main/packages/evm-contracts/contracts/Valist.sol#L139).
+You can view the smart contract implementation [here](https://remix.ethereum.org/valist-io/valist-js/blob/main/packages/evm-contracts/contracts/Valist.sol#L139).
+{% endhint %}
+{% hint style="info" %}
+You can view the file on GitHub using [this link](https://github.com/valist-io/valist-js/blob/main/packages/evm-contracts/contracts/Valist.sol#L139).
 {% endhint %}
