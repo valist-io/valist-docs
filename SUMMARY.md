@@ -3,6 +3,8 @@
 ## Quick Start
 
 * [🌄 Intro to Valist](README.md)
+  * [Valist For Gamers](quick-start/readme/valist-for-gamers.md)
+  * [Valist For Game Developers](quick-start/readme/valist-for-game-developers.md)
 * [🚀 Creating an Account & Project](quick-start/creating-an-account-and-project.md)
 * [🌐 Web Dashboard](quick-start/web-dashboard.md)
 * [💎 Sapphire Launcher](quick-start/sapphire-launcher.md)

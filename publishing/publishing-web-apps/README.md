@@ -11,7 +11,7 @@ Publishing a static web app with Valist is easy!
 
 No matter what web framework you're using, whether it's Next.js, Create React App, Gatsby or any other, Valist has got you covered. It supports all frameworks that can generate static sites, making the process simple and easy for you.
 
-****
+
 
 ### **Deploy Next JS Application**
 
