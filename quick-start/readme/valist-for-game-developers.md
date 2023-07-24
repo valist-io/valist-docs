@@ -19,7 +19,7 @@ Discover the Valist difference - where quality service and reliability reign sup
 2. **Scalability:** As your game gains traction and your user base expand, you need a platform that can keep up with your growing demands. Valist is engineered to handle large-scale deployments with ease. No matter how much your business flourishes, our infrastructure is primed to scale accordingly, ensuring your games continue to perform flawlessly and accommodate a growing number of players.
 3. **Security:** We recognize the importance of safeguarding your hard work and in-game economy. Valist provides a secure environment for software deployment, implementing robust measures to protect your games from potential threats. Rest assured that your intellectual property and your players' data are in safe hands, allowing you to focus on crafting unforgettable gaming experiences without worrying about security breaches.
 
-Our powerful platform grants you the freedom to deploy your creations seamlessly on any device or platform, be it web, desktop, or Android, reaching a vast and diverse audience while ensuring compatibility across multiple systems.
+Our powerful platform grants you the freedom to deploy your creations seamlessly on any device or platform, be it web, or desktop, reaching a vast and diverse audience while ensuring compatibility across multiple systems.
 
 No limitations, no boundaries – Valist supports a wide array of frameworks, from Next.js and React to Capacitor, Unity, Unreal Engine, and beyond. Embrace the language you love and build your games with the utmost creativity and innovation.
 
