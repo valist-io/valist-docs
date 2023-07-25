@@ -2,7 +2,7 @@
 description: >-
   Enter the ultimate realm of Web3 gaming - a thrilling universe brimming with
   the coolest blockchain games worldwide, fueled by valist and launched with
-  Hyperplay - Your new gaming haven awaits!
+  HyperPlay - Your new gaming haven awaits!
 ---
 
 # 🎮 Valist For Gamers
