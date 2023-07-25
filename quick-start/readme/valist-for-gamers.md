@@ -5,9 +5,9 @@ description: >-
   Hyperplay - Your new gaming haven awaits!
 ---
 
-# Valist For Gamers
+# 🎮 Valist For Gamers
 
-[**Valist**](https://www.valist.io/gamers) partnership with [**Hyperplay**](https://www.hyperplay.xyz/) is the ultimate launcher delivering the finest selection of Web3 games right to your fingertips - meticulously curated for your endless enjoyment!
+[**Valist**](https://www.valist.io/gamers) partnership with [**HyperPlay**](https://www.hyperplay.xyz/) is the ultimate launcher delivering the finest selection of Web3 games right to your fingertips - meticulously curated for your endless enjoyment!
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-07-24 at 9.18.55 PM.png" alt=""><figcaption></figcaption></figure>
 

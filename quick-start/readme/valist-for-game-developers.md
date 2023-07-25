@@ -5,9 +5,9 @@ description: >-
   from massive projects to small prototypes!
 ---
 
-# Valist For Game Developers
+# 👨💻 Valist For Game Developers
 
-[Valist](https://www.valist.io/software-developers) in partnership with [Hyperplay](https://www.hyperplay.xyz/) brings the best way for game developers to break into the Web 3.0 realm!\
+[Valist](https://www.valist.io/software-developers) in partnership with [HyperPlay](https://www.hyperplay.xyz/) brings the best way for game developers to break into the Web 3.0 realm!\
 \
 Say goodbye to tiresome and slow development and distribution processes. With Valist, we offer a lightning-fast solution to deploy your games while safeguarding your precious in-game economy. Embrace efficiency without compromise!
 
